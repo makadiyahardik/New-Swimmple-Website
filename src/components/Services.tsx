@@ -23,7 +23,7 @@ const Services = () => {
               <CardContent className="p-0">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1562941644-e1b98d28cfd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" 
+                    src="https://media.istockphoto.com/id/1443384023/photo/ai-assisted-cyborg-athletes-in-training.jpg?s=1024x1024&w=is&k=20&c=JmfQ4Y1V72vVpQyRBrRe6L-uaIfiKb3z3SSjfMlv7SM=" 
                     alt="Race Analysis" 
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />

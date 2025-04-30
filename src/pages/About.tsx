@@ -40,7 +40,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute -top-4 -right-4 w-24 h-24 bg-swimple-light rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
                   <img
-                    src="https://images.unsplash.com/photo-1591285687558-632dab39825a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1530549387789-4c1017266635?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Swimming pool lanes"
                     className="rounded-lg shadow-xl relative z-10"
                   />
@@ -128,7 +128,7 @@ const About = () => {
               </div>
               <div className="bg-swimple-gray/30 rounded-lg overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1548449112-96a38a643324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29hY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" 
+                  src="https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                   alt="Swimming coach" 
                   className="w-full h-64 object-cover"
                 />

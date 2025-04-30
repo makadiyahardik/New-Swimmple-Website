@@ -1,9 +1,14 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const HowItWorks = () => {
   useEffect(() => {
@@ -147,31 +152,44 @@ const HowItWorks = () => {
                 Everything you need to know about our swimming analysis services.
               </p>
             </div>
-            <div className="max-w-3xl mx-auto space-y-6">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-swimple-blue mb-2">How long does a session take?</h3>
-                <p className="text-gray-700">
-                  A typical session lasts about 45-60 minutes, including setup time and the actual swimming analysis.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-swimple-blue mb-2">Do I need to be an elite swimmer to benefit?</h3>
-                <p className="text-gray-700">
-                  Not at all! Our services benefit swimmers of all levels, from beginners looking to improve their technique to elite competitors fine-tuning their performance.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-swimple-blue mb-2">Can my coach attend the session?</h3>
-                <p className="text-gray-700">
-                  Yes, we encourage coaches to attend. Their input is valuable, and it helps them understand how to implement the recommendations in training.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-swimple-blue mb-2">How often should I get analyzed?</h3>
-                <p className="text-gray-700">
-                  We recommend analysis every 3-6 months to track progress and make continuous improvements. However, this can vary based on your goals and competition schedule.
-                </p>
-              </div>
+            <div className="max-w-3xl mx-auto">
+              <Accordion type="single" collapsible className="w-full">
+                <AccordionItem value="item-1" className="bg-white rounded-lg shadow-md mb-4 border-none">
+                  <AccordionTrigger className="px-6 py-4 text-xl font-semibold text-swimple-blue hover:no-underline">
+                    How long does a session take?
+                  </AccordionTrigger>
+                  <AccordionContent className="px-6 text-gray-700">
+                    A typical session lasts about 45-60 minutes, including setup time and the actual swimming analysis.
+                  </AccordionContent>
+                </AccordionItem>
+                
+                <AccordionItem value="item-2" className="bg-white rounded-lg shadow-md mb-4 border-none">
+                  <AccordionTrigger className="px-6 py-4 text-xl font-semibold text-swimple-blue hover:no-underline">
+                    Do I need to be an elite swimmer to benefit?
+                  </AccordionTrigger>
+                  <AccordionContent className="px-6 text-gray-700">
+                    Not at all! Our services benefit swimmers of all levels, from beginners looking to improve their technique to elite competitors fine-tuning their performance.
+                  </AccordionContent>
+                </AccordionItem>
+                
+                <AccordionItem value="item-3" className="bg-white rounded-lg shadow-md mb-4 border-none">
+                  <AccordionTrigger className="px-6 py-4 text-xl font-semibold text-swimple-blue hover:no-underline">
+                    Can my coach attend the session?
+                  </AccordionTrigger>
+                  <AccordionContent className="px-6 text-gray-700">
+                    Yes, we encourage coaches to attend. Their input is valuable, and it helps them understand how to implement the recommendations in training.
+                  </AccordionContent>
+                </AccordionItem>
+                
+                <AccordionItem value="item-4" className="bg-white rounded-lg shadow-md mb-4 border-none">
+                  <AccordionTrigger className="px-6 py-4 text-xl font-semibold text-swimple-blue hover:no-underline">
+                    How often should I get analyzed?
+                  </AccordionTrigger>
+                  <AccordionContent className="px-6 text-gray-700">
+                    We recommend analysis every 3-6 months to track progress and make continuous improvements. However, this can vary based on your goals and competition schedule.
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
             </div>
           </div>
         </section>
