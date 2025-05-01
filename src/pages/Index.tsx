@@ -1,8 +1,8 @@
-
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
+import JoinMovement from "@/components/JoinMovement";
 import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 import { useEffect } from "react";
@@ -23,6 +23,7 @@ const Index = () => {
         <Hero />
         <Services />
         <WhyUs />
+        <JoinMovement />
         <CallToAction />
       </main>
       <Footer />

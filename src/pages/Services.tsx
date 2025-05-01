@@ -56,8 +56,12 @@ const Services = () => {
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-swimple-teal flex items-center justify-center text-white">✓</div>
                     <span className="ml-3 text-gray-700">Elite benchmark comparison</span>
                   </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-swimple-teal flex items-center justify-center text-white">✓</div>
+                    <span className="ml-3 text-gray-700">Ideal for competitive swimmers</span>
+                  </li>
                 </ul>
-                <div className="mt-4 text-swimple-blue font-semibold">✅ Ideal for competitive swimmers</div>
+              
               </div>
               <div className="lg:w-1/2">
                 <div className="relative">
@@ -106,8 +110,12 @@ const Services = () => {
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-swimple-teal flex items-center justify-center text-white">✓</div>
                     <span className="ml-3 text-gray-700">Custom drills</span>
                   </li>
+                  <li className="flex items-start">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-swimple-teal flex items-center justify-center text-white">✓</div>
+                    <span className="ml-3 text-gray-700">Useful for all levels, from age-group to elite</span>
+                  </li>
                 </ul>
-                <div className="mt-4 text-swimple-blue font-semibold">✅ Useful for all levels, from age-group to elite</div>
+         
               </div>
             </div>
           </div>

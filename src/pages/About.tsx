@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -40,7 +39,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute -top-4 -right-4 w-24 h-24 bg-swimple-light rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
                   <img
-                    src="https://images.unsplash.com/photo-1530549387789-4c1017266635?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://images.pexels.com/photos/260598/pexels-photo-260598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
                     alt="Swimming pool lanes"
                     className="rounded-lg shadow-xl relative z-10"
                   />
@@ -76,7 +75,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-swimple-teal rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
                   <img
-                    src="https://images.unsplash.com/photo-1519315901367-f34ff9154487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHN3aW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
+                    src="https://images.pexels.com/photos/1263349/pexels-photo-1263349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
                     alt="Swimmer analysing technique"
                     className="rounded-lg shadow-xl relative z-10"
                   />
@@ -100,7 +99,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="bg-swimple-gray/30 rounded-lg overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnRzJTIwc2NpZW50aXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" 
+                  src="https://images.pexels.com/photos/3912516/pexels-photo-3912516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
                   alt="Sports scientist" 
                   className="w-full h-64 object-cover"
                 />
@@ -114,7 +113,7 @@ const About = () => {
               </div>
               <div className="bg-swimple-gray/30 rounded-lg overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0JTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" 
+                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
                   alt="Tech expert" 
                   className="w-full h-64 object-cover"
                 />
@@ -128,7 +127,7 @@ const About = () => {
               </div>
               <div className="bg-swimple-gray/30 rounded-lg overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
                 <img 
-                  src="https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
                   alt="Swimming coach" 
                   className="w-full h-64 object-cover"
                 />
@@ -213,7 +212,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-swimple-teal rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
                   <img
-                    src="https://images.unsplash.com/photo-1572852488877-15782e80a524?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
                     alt="Swimming facility"
                     className="rounded-lg shadow-xl relative z-10"
                   />
@@ -237,7 +236,7 @@ const About = () => {
                 </Button>
               </Link>
               <Link to="/contact">
-                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white/10 px-8 py-6 rounded-md transition-all hover:translate-y-[-2px]">
+                <Button variant="outline" size="lg" className="bg-white hover:bg-swimple-light text-swimple-blue px-8 py-6 rounded-md transition-all hover:translate-y-[-2px]">
                   Contact Us
                 </Button>
               </Link>
