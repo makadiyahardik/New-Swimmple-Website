@@ -71,7 +71,7 @@ const Footer = () => {
               Ready to improve your swimming performance with data-driven insights?
             </p>
             <Link 
-              to="/booking" 
+              to="/" 
               className="inline-block px-6 py-2 bg-swimple-blue hover:bg-swimple-teal text-white rounded-md transition-colors"
             >
               Book Now

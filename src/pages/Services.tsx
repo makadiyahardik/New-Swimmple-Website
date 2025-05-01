@@ -268,7 +268,7 @@ const Services = () => {
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Take the first step toward data-driven performance improvement.
             </p>
-            <Link to="/booking">
+            <Link to="/">
               <Button size="lg" className="bg-white hover:bg-swimple-light text-swimple-blue px-8 py-6 rounded-md transition-all hover:translate-y-[-2px]">
                 Book Your Session Today
               </Button>

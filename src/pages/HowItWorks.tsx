@@ -54,7 +54,7 @@ const HowItWorks = () => {
                   <p className="text-gray-700 mb-4">
                     Schedule your analysis session through our online booking system or via WhatsApp. Choose the type of analysis you need and select your preferred date and time.
                   </p>
-                  <Link to="/booking">
+                  <Link to="/">
                     <Button className="bg-swimple-blue hover:bg-swimple-teal transition-colors">
                       Book Now
                     </Button>
@@ -201,7 +201,7 @@ const HowItWorks = () => {
             <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
               Book your session today and take the first step toward data-driven swimming improvement.
             </p>
-            <Link to="/booking">
+            <Link to="/">
               <Button size="lg" className="bg-swimple-blue hover:bg-swimple-teal text-white px-8 py-6 rounded-md transition-all hover:translate-y-[-2px]">
                 Book Now
               </Button>

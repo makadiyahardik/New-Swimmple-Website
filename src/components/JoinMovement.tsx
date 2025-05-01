@@ -10,7 +10,7 @@ const JoinMovement = () => {
           Be part of the revolution in Indian swimming performance analytics.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Link to="/booking">
+          <Link to="/">
             <Button size="lg" className="bg-white hover:bg-swimple-light text-swimple-blue px-8 py-6 rounded-md transition-all hover:translate-y-[-2px]">
               Book a Session
             </Button>

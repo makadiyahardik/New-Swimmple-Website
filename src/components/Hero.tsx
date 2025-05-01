@@ -19,7 +19,7 @@ const Hero = () => {
               Race analysis and biomechanical precision powered by underwater cameras and cutting-edge technology.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center lg:justify-start gap-4 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
-              <Link to="/booking">
+              <Link to="/">
                 <Button size="lg" className="bg-swimple-blue hover:bg-swimple-teal text-white px-8 py-6 rounded-md transition-all hover:translate-y-[-2px]">
                   Book a Session
                 </Button>

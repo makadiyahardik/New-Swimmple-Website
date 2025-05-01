@@ -17,7 +17,7 @@ const CallToAction = () => {
           <p className="text-lg md:text-xl text-white/90 mb-10">
             Join elite swimmers across India who are transforming their performance with our science-backed analysis and personalized insights.
           </p>
-          <Link to="/booking">
+          <Link to="/">
             <Button size="lg" className="bg-white hover:bg-swimple-light text-swimple-blue px-8 py-6 rounded-md transition-all hover:translate-y-[-2px] hover:shadow-lg">
               Book a Session
             </Button>

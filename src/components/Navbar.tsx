@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link to="/how-it-works" className="text-gray-700 hover:text-swimple-blue transition-colors">
             How It Works
           </Link>
-          <Link to="/booking">
+          <Link to="/">
             <Button className="bg-swimple-blue hover:bg-swimple-teal transition-colors">
               Book a Session
             </Button>
@@ -102,7 +102,7 @@ const Navbar = () => {
               How It Works
             </Link>
             <Link 
-              to="/booking"
+              to="/"
               onClick={() => setIsMenuOpen(false)}
             >
               <Button className="bg-swimple-blue hover:bg-swimple-teal transition-colors w-full">
