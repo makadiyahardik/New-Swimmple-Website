@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -65,10 +64,10 @@ export default {
 				},
 				// Custom colors for Swimple
 				swimple: {
-					blue: '#0077B6',
-					teal: '#00B4D8',
-					light: '#90E0EF',
-					dark: '#03045E',
+					blue: '#0B5ED7',
+					teal: '#0DCAF0',
+					light: '#9EEAF9',
+					dark: '#052C6E',
 					gray: '#F8F9FA'
 				}
 			},
