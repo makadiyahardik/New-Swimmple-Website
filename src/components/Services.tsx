@@ -23,7 +23,7 @@ const Services = () => {
               <CardContent className="p-0">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="https://media.istockphoto.com/id/1443384023/photo/ai-assisted-cyborg-athletes-in-training.jpg?s=1024x1024&w=is&k=20&c=JmfQ4Y1V72vVpQyRBrRe6L-uaIfiKb3z3SSjfMlv7SM=" 
+                    src="/images/image2.jpg" 
                     alt="Race Analysis" 
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
@@ -31,7 +31,8 @@ const Services = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-swimple-blue mb-2">Race Analysis</h3>
                   <p className="text-gray-600 mb-4">
-                    Starts, turns, strokes, and finishes analyzed with video-supported metrics.
+                  Precise breakdowns of starts, turns, stroke lengths, stroke rates and finishes with
+                  video-supported metrics.
                   </p>
                 </div>
               </CardContent>
@@ -44,7 +45,7 @@ const Services = () => {
               <CardContent className="p-0">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" 
+                    src="/images/image3.jpg" 
                     alt="Biomechanical Analysis" 
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
@@ -65,7 +66,7 @@ const Services = () => {
               <CardContent className="p-0">
                 <div className="h-48 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHVuZGVyd2F0ZXIlMjBjYW1lcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60" 
+                    src="/images/image4.jpg" 
                     alt="Underwater Camera System" 
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />

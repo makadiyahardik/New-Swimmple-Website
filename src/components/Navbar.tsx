@@ -31,10 +31,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <div className="text-2xl font-bold text-swimple-blue">
-            <span className="text-gradient">Swimple</span>
-            <span className="text-sm ml-1 text-gray-600">Sports Lab</span>
-          </div>
+          <img src="/images/logo.png" alt="Swimple Logo" className="w-auto h-10" />
         </Link>
 
         {/* Desktop Navigation */}

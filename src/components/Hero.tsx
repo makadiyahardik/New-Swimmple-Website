@@ -38,7 +38,7 @@ const Hero = () => {
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-swimple-light rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-swimple-teal rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle" style={{animationDelay: '1s'}}></div>
               <img 
-                src="https://plus.unsplash.com/premium_photo-1664478030972-29159a001af8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                src="/images/image1.jpg" 
                 alt="Professional swimmer in action" 
                 className="rounded-lg shadow-2xl relative z-10 object-cover w-full max-h-96 lg:max-h-[500px]"
               />

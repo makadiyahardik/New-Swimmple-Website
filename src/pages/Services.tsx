@@ -67,7 +67,7 @@ const Services = () => {
                 <div className="relative">
                   <div className="absolute -top-4 -right-4 w-24 h-24 bg-swimple-light rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
                   <img
-                    src="https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                    src="/images/image6.jpg"
                     alt="Race Analysis"
                     className="rounded-lg shadow-xl relative z-10"
                   />

@@ -39,7 +39,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute -top-4 -right-4 w-24 h-24 bg-swimple-light rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
                   <img
-                    src="https://images.pexels.com/photos/260598/pexels-photo-260598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                    src="/images/image7.jpg"
                     alt="Swimming pool lanes"
                     className="rounded-lg shadow-xl relative z-10"
                   />
@@ -99,43 +99,46 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="bg-swimple-gray/30 rounded-lg overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
                 <img 
-                  src="https://images.pexels.com/photos/3912516/pexels-photo-3912516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
+                  src="/images/Sandeepsir.jpeg" 
                   alt="Sports scientist" 
                   className="w-full h-64 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-swimple-blue mb-1">Dr. Ananya Sharma</h3>
-                  <p className="text-gray-600 mb-4">Sports Biomechanics Lead</p>
+                  <h3 className="text-xl font-semibold text-swimple-blue mb-1">Sandeep </h3>
+                  {/* <p className="text-gray-600 mb-4">Sports Biomechanics Lead</p> */}
                   <p className="text-gray-700">
-                    Specializes in swim stroke mechanics and performance optimization.
+                  Sandeep is a seasoned entrepreneur with expertise in enterprise architecture and
+                  application integration.
                   </p>
                 </div>
               </div>
               <div className="bg-swimple-gray/30 rounded-lg overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
                 <img 
-                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
+                  src="/images/Jay.jpeg" 
                   alt="Tech expert" 
                   className="w-full h-64 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-swimple-blue mb-1">Vikram Patel</h3>
-                  <p className="text-gray-600 mb-4">Technology Director</p>
+                  <h3 className="text-xl font-semibold text-swimple-blue mb-1">jay</h3>
+                  {/* <p className="text-gray-600 mb-4">Technology Director</p> */}
                   <p className="text-gray-700">
-                    Expert in underwater camera systems and motion analysis software.
+                  Jay, an entrepreneur himself, has experience securing deals for his construction company
+                  and has great relationships with government entities across India
                   </p>
                 </div>
               </div>
               <div className="bg-swimple-gray/30 rounded-lg overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1">
                 <img 
-                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750" 
+                  src="/images/Pai.jpeg" 
                   alt="Swimming coach" 
                   className="w-full h-64 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-swimple-blue mb-1">Coach Rajiv Mehta</h3>
-                  <p className="text-gray-600 mb-4">Performance Analysis Specialist</p>
+                  <h3 className="text-xl font-semibold text-swimple-blue mb-1">Raghav</h3>
+                  {/* <p className="text-gray-600 mb-4">Performance Analysis Specialist</p> */}
                   <p className="text-gray-700">
-                    Former national coach with expertise in race strategy and technical development.
+                  Raghav is a strategic leader overseeing growth, analytics and financial planning for
+                  Global company in the Middle-East
                   </p>
                 </div>
               </div>
@@ -212,7 +215,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-swimple-teal rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
                   <img
-                    src="https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750"
+                    src="/images/image8.jpeg"
                     alt="Swimming facility"
                     className="rounded-lg shadow-xl relative z-10"
                   />

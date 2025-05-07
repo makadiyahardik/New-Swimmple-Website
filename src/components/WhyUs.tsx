@@ -32,7 +32,7 @@ const WhyUs = () => {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-swimple-teal rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle"></div>
               <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-swimple-light rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse-gentle" style={{animationDelay: '1.5s'}}></div>
               <img
-                src="https://images.unsplash.com/photo-1542359649-31e03cd4d909?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                src="/images/image5.jpg"
                 alt="Swimming data analysis"
                 className="rounded-lg shadow-xl relative z-10 object-cover w-full h-full max-h-[500px]"
               />
